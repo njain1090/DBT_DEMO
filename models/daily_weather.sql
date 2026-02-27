@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 WITH daily_w as(
 
 select 
